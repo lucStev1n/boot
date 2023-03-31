@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cs.jou</groupId>
+        <artifactId>app</artifactId>
+        <version>0.36.3</version>
+    </parent>
+
+    <artifactId>mybatis-dao</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis}</version>
+        </dependency>
+        <dependency>
+            <groupId>cs.jou</groupId>
+            <artifactId>entity</artifactId>
+            <version>0.36.3</version>
+        </dependency>
+    </dependencies>
+
+</project>
